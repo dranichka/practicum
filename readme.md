@@ -59,11 +59,11 @@ rm -r (название папки) — удали папку и всё, что 
 
 ```mermaid
 graph LR;
-untracked -- "git add" --> staged + tracked;
-staged + tracked -- "git commit" -- > tracked;
+untracked -- "git add" --> staged;
+staged -- "git commit" -- > tracked;
 tracked -- "Изменения" --> modified;
-modified -- "git add" --> staged + tracked;
-staged + tracked -- "Изменения" --> modified;
+modified -- "git add" --> staged;
+staged -- "Изменения" --> modified;
 ```
 
 ## Как читать git status
