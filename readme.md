@@ -63,7 +63,8 @@ untracked -- "git add" --> staged;
 staged -- "git commit" --> tracked;
 tracked -- "Измнения" --> modified;
 modified -- "git add" --> staged;
-```
+staged -- "Измнения" --> modified;
+ ``
 
 ## Как читать git status
 
