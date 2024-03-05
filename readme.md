@@ -60,7 +60,6 @@ rm -r (название папки) — удали папку и всё, что 
 ```mermaid
 graph LR;
 untracked -- "git add" --> staged;
-staged -- "git commit" -- > tracked
 ```
 
 ## Как читать git status
