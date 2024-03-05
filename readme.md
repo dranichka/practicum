@@ -58,7 +58,7 @@ rm -r (название папки) — удали папку и всё, что 
 ### Типичный жизненный цикл файла в Git
 
 ```mermaid
-graph LR;
+graph TD;
 untracked -- "git add" --> staged;
 staged -- "git commit" --> tracked;
 tracked -- "Измнения" --> modified;
