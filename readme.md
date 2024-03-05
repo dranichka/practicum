@@ -58,12 +58,11 @@ rm -r (название папки) — удали папку и всё, что 
 ### Типичный жизненный цикл файла в Git
 
 ```mermaid
-graph TD;
+graph LR;
 untracked -- "git add" --> staged;
 staged -- "git commit" --> tracked;
 tracked -- "Измнения" --> modified;
 modified -- "git add" --> staged;
-staged -- "Измнения" --> modified;
  ``
 
 ## Как читать git status
