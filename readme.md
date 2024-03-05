@@ -61,9 +61,6 @@ rm -r (название папки) — удали папку и всё, что 
 graph LR;
 untracked -- "git add" --> staged;
 staged -- "git commit" -- > tracked;
-tracked -- "Изменения" --> modified;
-modified -- "git add" --> staged;
-staged -- "Изменения" --> modified;
 ```
 
 ## Как читать git status
